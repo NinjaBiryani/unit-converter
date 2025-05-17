@@ -1,0 +1,117 @@
+body {
+    overflow: hidden; 
+    width: 100vw; 
+    height: 100vh;
+    background: hsl(210, 8.33%, 95.29%); 
+
+
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Inter'
+}
+
+#cont-unitconverter{
+    border: 6px solid white; 
+    box-shadow: 0px 0px 6px #1b1b1b; 
+    border-radius: 10px; 
+    margin: 0 0 15px 0;
+
+    /* min-height: 500px; 
+    min-width: 450px;  */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+#top, #bottom {
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#top {
+    background: hsl(255.4, 95.76%, 60%); 
+    color: whitesmoke;
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#cont-title {
+    font-size: 24px; 
+    margin: 25px 45px 20px; 
+}
+
+ /* #cont-title, #number-box, #convert-btn {
+ } */
+
+ #number-box {
+    width: 80px; 
+    padding: 5px 7.5px; 
+
+    text-align: center; 
+
+    font-size: 45px; 
+    font-weight: 700; 
+
+    border: 2px solid hsl(40, 0.45%, 65.29%); 
+    border-radius: 4px; 
+    margin: 0px 0px 20px 0px; 
+ }
+
+#convert-btn {
+    padding: 7px 14px; 
+ 
+    color: hsl(0, 0%, 20.39%); 
+    width: 97.5px; 
+    margin: 0 0 20px 0; 
+}
+
+ #bottom {
+    background: hsl(40, 5.45%, 91.29%); 
+    padding: 30px 20px; 
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    border: 2px solid hsl(40, 0.45%, 85.29%); 
+
+    /* display: flex; 
+    flex-direction: column; 
+    justify-content: end;   */
+ }
+
+#length-box, #volume-box, #mass-box {
+    border: 2px solid green; 
+    border: none; 
+    background: white; 
+
+    width: 100%; 
+
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+
+}
+
+#volume-box {
+    margin: 17.5px 0px; 
+}
+
+#length-title, #volume-title, #mass-title { 
+    font-size: 18px;  
+    font-weight: 550;
+    margin: 20px 0px 10px; 
+
+    color: hsl(258.46, 35.9%, 27.45%); 
+}
+
+#length-convert, #volume-convert, #mass-convert {
+
+     font-size: 14px; 
+     color: hsl(0, 0%, 20.39%); 
+     margin: 0 0 10px 0; 
+}
+
